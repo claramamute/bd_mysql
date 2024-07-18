@@ -11,8 +11,6 @@ CREATE TABLE tb_produtos (
     PRIMARY KEY (id)
 );
 
-DESCRIBE tb_produtos;
-
 INSERT INTO tb_produtos(nome, categoria , preco, marca, estoque)
 VALUES ("Escova", "Cosmético" , 25.00, "Vult" , true),
 ("Batom", "Cosmético" ,  45.00 , "Vult", true),
@@ -22,7 +20,6 @@ VALUES ("Escova", "Cosmético" , 25.00, "Vult" , true),
 ("Condicionador", "Cosmético" , 49.00 , "Salon Line", false),
 ("Sabonete", "Cosmético" ,  10.90 , "Natura", true),
 ("Risperidona", "Medicamento" ,  55.00, "" , true);
-
 INSERT INTO tb_produtos(nome, categoria , preco, marca, estoque)
 VALUES ("Oleo", "Cosmético" , 550.00, "Keraste" , false);
 INSERT INTO tb_produtos(nome, categoria , preco, marca, estoque)
